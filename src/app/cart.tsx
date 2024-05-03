@@ -7,6 +7,8 @@ import CartListItem from "@/components/CartListItem";
 
 const CartScreen = () => {
   const { items } = useCart();
+  // Console logging to see what items are there in items
+  console.log(items);
   return (
     <View>
       <FlatList
